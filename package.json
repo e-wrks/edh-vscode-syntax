@@ -1,10 +1,14 @@
 {
+    "publisher": "ComplYue",
+    "repository": {
+        "url": "https://github.com/e-wrks/edh-vscode-syntax"
+    },
     "name": "edh-vscode-syntax",
     "displayName": "Edh Syntax Highlighting",
     "description": "Syntax Highlighting for Edh",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1."
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Programming Languages"
