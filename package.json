@@ -1,0 +1,34 @@
+{
+    "name": "edh-vscode-syntax",
+    "displayName": "Edh Syntax Highlighting",
+    "description": "Syntax Highlighting for Edh",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1."
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "edh",
+                "aliases": [
+                    "Edh",
+                    "edh"
+                ],
+                "extensions": [
+                    ".edh"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "edh",
+                "scopeName": "source.edh",
+                "path": "./syntaxes/edh.tmLanguage.json"
+            }
+        ]
+    }
+}

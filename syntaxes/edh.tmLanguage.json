@@ -1,0 +1,310 @@
+{
+	"name": "Edh",
+	"scopeName": "source.edh",
+	"fileTypes": [
+		".edh"
+	],
+	"patterns": [
+		{
+			"include": "#punctuation-comma"
+		},
+		{
+			"include": "#punctuation-semicolon"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#qstring-tripple-double"
+		},
+		{
+			"include": "#qstring-tripple-single"
+		},
+		{
+			"include": "#qstring-double"
+		},
+		{
+			"include": "#qstring-single"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#literal"
+		},
+		{
+			"include": "#expressions"
+		},
+		{
+			"include": "#identifiers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.edh",
+					"match": "\\b(ai|go|defer|import|export|effect|let|class|extends|method|generator|perceive|interpreter|producer|while|break|continue|fallthrough|operator|return|throw|pass)\\b"
+				}
+			]
+		},
+		"qstring-tripple-double": {
+			"name": "string.quoted.tripple.double.edh",
+			"begin": "\"\"\"",
+			"end": "\"\"\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
+		"qstring-tripple-single": {
+			"name": "string.quoted.tripple.single.edh",
+			"begin": "'''",
+			"end": "'''",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
+		"qstring-double": {
+			"name": "string.quoted.double.edh",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
+		"qstring-single": {
+			"name": "string.quoted.single.edh",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comment": {
+			"patterns": [
+				{
+					"name": "comment.block.edh",
+					"begin": "{#",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.edh"
+						}
+					},
+					"end": "#}",
+					"endCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.edh"
+						}
+					}
+				},
+				{
+					"begin": "(^[ \\t]+)?(?=#)",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.whitespace.comment.leading.edh"
+						}
+					},
+					"end": "(?=$)",
+					"patterns": [
+						{
+							"name": "comment.line.hash.edh",
+							"begin": "#",
+							"beginCaptures": {
+								"0": {
+									"name": "punctuation.definition.comment.edh"
+								}
+							},
+							"end": "(?=$)"
+						}
+					]
+				}
+			]
+		},
+		"literal": {
+			"name": "literal.edh",
+			"patterns": [
+				{
+					"include": "#numeric-literal"
+				},
+				{
+					"include": "#boolean-literal"
+				},
+				{
+					"include": "#nil-literal"
+				},
+				{
+					"include": "#none-literal"
+				},
+				{
+					"include": "#nothing-literal"
+				},
+				{
+					"include": "#numericConstant-literal"
+				},
+				{
+					"include": "#this-literal"
+				},
+				{
+					"include": "#that-literal"
+				},
+				{
+					"include": "#supers-literal"
+				}
+			]
+		},
+		"numeric-literal": {
+			"patterns": [
+				{
+					"match": "(?x)\n(?<!\\$)(?:\n  (?:\\b[0-9]+(\\.)[0-9]+[eE][+-]?[0-9]+\\b)| # 1.1E+3\n  (?:\\b[0-9]+(\\.)[eE][+-]?[0-9]+\\b)|       # 1.E+3\n  (?:\\B(\\.)[0-9]+[eE][+-]?[0-9]+\\b)|       # .1E+3\n  (?:\\b[0-9]+[eE][+-]?[0-9]+\\b)|            # 1E+3\n  (?:\\b[0-9]+(\\.)[0-9]+\\b)|                # 1.1\n  (?:\\b[0-9]+(\\.)\\B)|                      # 1.\n  (?:\\B(\\.)[0-9]+\\b)|                      # .1\n  (?:\\b[0-9]+\\b(?!\\.))                     # 1\n)(?!\\$)",
+					"captures": {
+						"0": {
+							"name": "constant.numeric.decimal.edh"
+						},
+						"1": {
+							"name": "meta.delimiter.decimal.period.edh"
+						},
+						"2": {
+							"name": "meta.delimiter.decimal.period.edh"
+						},
+						"3": {
+							"name": "meta.delimiter.decimal.period.edh"
+						},
+						"4": {
+							"name": "meta.delimiter.decimal.period.edh"
+						},
+						"5": {
+							"name": "meta.delimiter.decimal.period.edh"
+						},
+						"6": {
+							"name": "meta.delimiter.decimal.period.edh"
+						}
+					}
+				}
+			]
+		},
+		"boolean-literal": {
+			"patterns": [
+				{
+					"name": "constant.language.boolean.true.edh",
+					"match": "\\btrue\\b"
+				},
+				{
+					"name": "constant.language.boolean.false.edh",
+					"match": "\\bfalse\\b"
+				}
+			]
+		},
+		"nil-literal": {
+			"name": "constant.language.nil.edh",
+			"match": "\\bnil\\b"
+		},
+		"none-literal": {
+			"name": "constant.language.none.edh",
+			"match": "\\bNone\\b"
+		},
+		"nothing-literal": {
+			"name": "constant.language.nothing.edh",
+			"match": "\\bNothing\\b"
+		},
+		"this-literal": {
+			"name": "variable.language.this.edh",
+			"match": "\\bthis\\b"
+		},
+		"that-literal": {
+			"name": "variable.language.that.edh",
+			"match": "\\bthat\\b"
+		},
+		"supers-literal": {
+			"name": "variable.language.supers.edh",
+			"match": "\\bsupers\\b"
+		},
+		"numericConstant-literal": {
+			"patterns": [
+				{
+					"name": "constant.language.nan.edh",
+					"match": "\\bnan\\b"
+				},
+				{
+					"name": "constant.language.infinity.edh",
+					"match": "\\binf\\b"
+				}
+			]
+		},
+		"expressions": {
+			"patterns": [
+				{
+					"name": "variable.separator.dot.edh",
+					"match": "\\."
+				},
+				{
+					"name": "keyword.operator.edh",
+					"match": "[\\=\\~\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\+\\-\\*/\\[\\]]+"
+				},
+				{
+					"name": "keyword.expression.sink.edh",
+					"match": "\\bsink\\b"
+				},
+				{
+					"name": "keyword.operator.not.edh",
+					"match": "\\bnot\\b"
+				},
+				{
+					"name": "keyword.operator.if.edh",
+					"match": "\\b(if|then|else)\\b"
+				},
+				{
+					"name": "keyword.operator.case.edh",
+					"match": "\\b(case|of)\\b"
+				},
+				{
+					"name": "keyword.expression.yield.edh",
+					"match": "\\byield\\b"
+				},
+				{
+					"name": "keyword.expression.for.edh",
+					"match": "\\b(for|from|do)\\b"
+				},
+				{
+					"name": "keyword.expression.perform.edh",
+					"match": "\\b(perform|behave)\\b"
+				},
+				{
+					"name": "keyword.operator.as.edh",
+					"match": "\\bas\\b"
+				}
+			]
+		},
+		"identifiers": {
+			"patterns": [
+				{
+					"name": "variable.symbolic.readwrite.edh",
+					"match": "@[_[:alpha:]][_'[:alnum:]]*"
+				},
+				{
+					"name": "variable.alphanumeric.readwrite.edh",
+					"match": "[_[:alpha:]][_'[:alnum:]]*"
+				}
+			]
+		},
+		"punctuation-comma": {
+			"name": "punctuation.separator.comma.edh",
+			"match": ","
+		},
+		"punctuation-semicolon": {
+			"name": "punctuation.terminator.statement.edh",
+			"match": ";"
+		}
+	}
+}
