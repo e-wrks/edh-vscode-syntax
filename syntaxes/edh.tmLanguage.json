@@ -44,7 +44,7 @@
 			"patterns": [
 				{
 					"name": "keyword.concur.control.edh",
-					"match": "\\b(ai|go|defer)\\b"
+					"match": "\\b(ai|go|defer|perceive)\\b"
 				},
 				{
 					"name": "keyword.control.edh",
@@ -52,7 +52,7 @@
 				},
 				{
 					"name": "storage.type.edh",
-					"match": "\\b(class|extends|method|generator|perceive|interpreter|producer|operator)\\b"
+					"match": "\\b(extends|class|method|generator|interpreter|producer|operator)\\b"
 				},
 				{
 					"name": "storage.modifier.edh",
