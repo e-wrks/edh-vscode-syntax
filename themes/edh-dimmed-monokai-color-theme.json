@@ -1,7 +1,0 @@
-{
-	"type": "dark",
-	"include": [
-		"./dimmed-monokai-color-theme.json",
-		"./edh.json"
-	]
-}
