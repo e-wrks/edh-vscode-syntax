@@ -1,0 +1,123 @@
+{
+	"type": "dark",
+	"include": "./dark_plus.json",
+	"tokenColors": [
+		{
+			"name": "Concurrency Control",
+			"scope": "keyword.concur.control",
+			"settings": {
+				"foreground": "#adaf26"
+			}
+		},
+		{
+			"name": "Keyword Control",
+			"scope": [
+				"keyword.control.edh"
+			],
+			"settings": {
+				"foreground": "#9872A2"
+			}
+		},
+		{
+			"name": "Storage Type",
+			"scope": "storage.type.edh",
+			"settings": {
+				"foreground": "#676867"
+			}
+		},
+		{
+			"name": "Storage Modifier",
+			"scope": "storage.modifier.edh",
+			"settings": {
+				"foreground": "#b3b3b3"
+			}
+		},
+		{
+			"name": "Support Module",
+			"scope": "support.module.edh",
+			"settings": {
+				"foreground": "#8d4649"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": "support.function.edh",
+			"settings": {
+				"foreground": "#b8565b"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#78a83a"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment.edh",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9ABB99"
+			}
+		},
+		{
+			"name": "Expr Keyword",
+			"scope": "keyword.other.expr.edh",
+			"settings": {
+				"foreground": "#CE6700"
+			}
+		},
+		{
+			"name": "Sink Keyword",
+			"scope": "keyword.other.sink.edh",
+			"settings": {
+				"foreground": "#CE6700"
+			}
+		},
+		{
+			"name": "Control in Expression",
+			"scope": "expr.keyword.control.edh",
+			"settings": {
+				"foreground": "#4d8e9e"
+			}
+		},
+		{
+			"name": "Operator in Expression",
+			"scope": "expr.keyword.operator.edh",
+			"settings": {
+				"foreground": "#ac784c"
+			}
+		},
+		{
+			"name": "Alphanumeric Variable",
+			"scope": "variable.other.alphanumeric.edh",
+			"settings": {
+				"foreground": "#699b8a"
+			}
+		},
+		{
+			"name": "Symbolic Variable",
+			"scope": "variable.other.symbolic.edh",
+			"settings": {
+				"foreground": "#6089B4"
+			}
+		},
+		{
+			"name": "Intrinsic Constant",
+			"scope": "constant.language.edh",
+			"settings": {
+				"foreground": "#6969d4"
+			}
+		},
+		{
+			"name": "Intrinsic Variable",
+			"scope": "variable.language.edh",
+			"settings": {
+				"foreground": "#635ec4"
+			}
+		}
+	],
+	"semanticHighlighting": true
+}

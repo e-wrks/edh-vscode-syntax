@@ -36,6 +36,11 @@
         ],
         "themes": [
             {
+                "label": "Edh - Dark+",
+                "uiTheme": "vs-dark",
+                "path": "./themes/edh-dark_plus.json"
+            },
+            {
                 "label": "Edh - Monokai Dimmed",
                 "uiTheme": "vs-dark",
                 "path": "./themes/edh-dimmed-monokai-color-theme.json"
