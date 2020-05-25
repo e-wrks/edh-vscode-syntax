@@ -6,13 +6,13 @@
 			"name": "Concurrency Control",
 			"scope": "keyword.concur.control",
 			"settings": {
-				"foreground": "#676867"
+				"foreground": "#adaf26"
 			}
 		},
 		{
 			"name": "Keyword Control",
 			"scope": [
-				"keyword.control",
+				"keyword.control.edh",
 			],
 			"settings": {
 				"foreground": "#9872A2"
@@ -20,35 +20,35 @@
 		},
 		{
 			"name": "Storage Type",
-			"scope": "storage.type",
+			"scope": "storage.type.edh",
 			"settings": {
 				"foreground": "#676867"
 			}
 		},
 		{
 			"name": "Storage Modifier",
-			"scope": "storage.modifier",
+			"scope": "storage.modifier.edh",
 			"settings": {
 				"foreground": "#878887"
 			}
 		},
 		{
 			"name": "Support Module",
-			"scope": "support.module",
+			"scope": "support.module.edh",
 			"settings": {
 				"foreground": "#A7242A"
 			}
 		},
 		{
 			"name": "Support Function",
-			"scope": "support.function",
+			"scope": "support.function.edh",
 			"settings": {
 				"foreground": "#C7444A"
 			}
 		},
 		{
 			"name": "Comment",
-			"scope": "comment",
+			"scope": "comment.edh",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#9ABB99"
@@ -56,23 +56,30 @@
 		},
 		{
 			"name": "Expr Keyword",
-			"scope": "keyword.expr.edh",
+			"scope": "keyword.other.expr.edh",
+			"settings": {
+				"foreground": "#CE6700"
+			}
+		},
+		{
+			"name": "Sink Keyword",
+			"scope": "keyword.other.sink.edh",
 			"settings": {
 				"foreground": "#CE6700"
 			}
 		},
 		{
 			"name": "Control in Expression",
-			"scope": "keyword.control.expr.edh",
+			"scope": "expr.keyword.control.edh",
 			"settings": {
-				"foreground": "#008200"
+				"foreground": "#4d8e9e"
 			}
 		},
 		{
 			"name": "Operator in Expression",
-			"scope": "keyword.operator.expr.edh",
+			"scope": "expr.keyword.operator.edh",
 			"settings": {
-				"foreground": "#D08442"
+				"foreground": "#ac784c"
 			}
 		},
 		{
@@ -90,5 +97,5 @@
 			}
 		},
 	],
-	"semanticHighlighting": false
+	"semanticHighlighting": true
 }

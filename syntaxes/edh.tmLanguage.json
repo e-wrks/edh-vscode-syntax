@@ -295,35 +295,35 @@
 					"match": "\\bexpr\\b"
 				},
 				{
-					"name": "keyword.expr.sink.edh",
+					"name": "keyword.other.sink.edh",
 					"match": "\\bsink\\b"
 				},
 				{
-					"name": "keyword.operator.expr.not.edh",
+					"name": "expr.keyword.operator.edh",
 					"match": "\\bnot\\b"
 				},
 				{
-					"name": "keyword.control.expr.if.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\b(if|then|else)\\b"
 				},
 				{
-					"name": "keyword.control.expr.case.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\b(case|of)\\b"
 				},
 				{
-					"name": "keyword.control.expr.yield.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\byield\\b"
 				},
 				{
-					"name": "keyword.control.expr.for.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\b(for|from|do)\\b"
 				},
 				{
-					"name": "keyword.control.expr.perform.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\b(perform|behave)\\b"
 				},
 				{
-					"name": "keyword.control.expr.as.edh",
+					"name": "expr.keyword.control.edh",
 					"match": "\\bas\\b"
 				}
 			]
@@ -347,7 +347,7 @@
 					"match": "\b\\.\b"
 				},
 				{
-					"name": "keyword.operator.expr.edh",
+					"name": "expr.keyword.operator.edh",
 					"match": "[\\=\\~\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\+\\-\\*/\\[\\]]+"
 				},
 				{
