@@ -6,7 +6,7 @@
     "name": "edh-vscode-syntax",
     "displayName": "Edh Syntax Highlighting",
     "description": "Syntax Highlighting for Edh",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "engines": {
         "vscode": "^1.0.0"
     },
