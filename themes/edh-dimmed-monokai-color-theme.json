@@ -29,7 +29,7 @@
 			"name": "Storage Modifier",
 			"scope": "storage.modifier.edh",
 			"settings": {
-				"foreground": "#414241"
+				"foreground": "#b3b3b3"
 			}
 		},
 		{
