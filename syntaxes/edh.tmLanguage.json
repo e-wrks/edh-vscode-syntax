@@ -243,47 +243,47 @@
 		"boolean-literal": {
 			"patterns": [
 				{
-					"name": "constant.language.boolean.true.edh",
+					"name": "constant.language.edh",
 					"match": "\\btrue\\b"
 				},
 				{
-					"name": "constant.language.boolean.false.edh",
+					"name": "constant.language.edh",
 					"match": "\\bfalse\\b"
 				}
 			]
 		},
 		"nil-literal": {
-			"name": "constant.language.nil.edh",
+			"name": "constant.language.edh",
 			"match": "\\bnil\\b"
 		},
 		"none-literal": {
-			"name": "constant.language.none.edh",
+			"name": "constant.language.edh",
 			"match": "\\bNone\\b"
 		},
 		"nothing-literal": {
-			"name": "constant.language.nothing.edh",
+			"name": "constant.language.edh",
 			"match": "\\bNothing\\b"
 		},
 		"this-literal": {
-			"name": "variable.language.this.edh",
+			"name": "variable.language.edh",
 			"match": "\\bthis\\b"
 		},
 		"that-literal": {
-			"name": "variable.language.that.edh",
+			"name": "variable.language.edh",
 			"match": "\\bthat\\b"
 		},
 		"supers-literal": {
-			"name": "variable.language.supers.edh",
+			"name": "variable.language.edh",
 			"match": "\\bsupers\\b"
 		},
 		"numericConstant-literal": {
 			"patterns": [
 				{
-					"name": "constant.language.nan.edh",
+					"name": "constant.language.edh",
 					"match": "\\bnan\\b"
 				},
 				{
-					"name": "constant.language.infinity.edh",
+					"name": "constant.language.edh",
 					"match": "\\binf\\b"
 				}
 			]

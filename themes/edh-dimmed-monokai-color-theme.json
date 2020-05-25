@@ -36,14 +36,14 @@
 			"name": "Support Module",
 			"scope": "support.module.edh",
 			"settings": {
-				"foreground": "#A7242A"
+				"foreground": "#8d4649"
 			}
 		},
 		{
 			"name": "Support Function",
 			"scope": "support.function.edh",
 			"settings": {
-				"foreground": "#C7444A"
+				"foreground": "#b8565b"
 			}
 		},
 		{
@@ -96,6 +96,20 @@
 				"foreground": "#6089B4"
 			}
 		},
+		{
+			"name": "Intrinsic Constant",
+			"scope": "constant.language.edh",
+			"settings": {
+				"foreground": "#6969d4",
+			}
+		},
+		{
+			"name": "Intrinsic Variable",
+			"scope": "variable.language.edh",
+			"settings": {
+				"foreground": "#635ec4"
+			}
+		}
 	],
 	"semanticHighlighting": true
 }
