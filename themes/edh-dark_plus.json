@@ -58,7 +58,7 @@
 			"name": "Decimal",
 			"scope": "constant.numeric.decimal.edh",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#5799df"
 			}
 		},
 		{
@@ -79,7 +79,7 @@
 			"name": "Expr Keyword",
 			"scope": "keyword.other.expr.edh",
 			"settings": {
-				"foreground": "#5799df"
+				"foreground": "#d3d475"
 			}
 		},
 		{
