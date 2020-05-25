@@ -7,7 +7,7 @@
 			"name": "Concurrency Control",
 			"scope": "keyword.concur.control",
 			"settings": {
-				"foreground": "#adaf26"
+				"foreground": "#d3d630"
 			}
 		},
 		{
@@ -16,35 +16,35 @@
 				"keyword.control.edh"
 			],
 			"settings": {
-				"foreground": "#9872A2"
+				"foreground": "#c393cf"
 			}
 		},
 		{
 			"name": "Storage Type",
 			"scope": "storage.type.edh",
 			"settings": {
-				"foreground": "#676867"
+				"foreground": "#b9b9b9"
 			}
 		},
 		{
 			"name": "Storage Modifier",
 			"scope": "storage.modifier.edh",
 			"settings": {
-				"foreground": "#b3b3b3"
+				"foreground": "#dadada"
 			}
 		},
 		{
 			"name": "Support Module",
 			"scope": "support.module.edh",
 			"settings": {
-				"foreground": "#8d4649"
+				"foreground": "#c76267"
 			}
 		},
 		{
 			"name": "Support Function",
 			"scope": "support.function.edh",
 			"settings": {
-				"foreground": "#b8565b"
+				"foreground": "#dd676d"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 			"scope": "string",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#78a83a"
+				"foreground": "#98d449"
 			}
 		},
 		{
@@ -60,63 +60,63 @@
 			"scope": "comment.edh",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#9ABB99"
+				"foreground": "#b6dbb4"
 			}
 		},
 		{
 			"name": "Expr Keyword",
 			"scope": "keyword.other.expr.edh",
 			"settings": {
-				"foreground": "#CE6700"
+				"foreground": "#eb7601"
 			}
 		},
 		{
 			"name": "Sink Keyword",
 			"scope": "keyword.other.sink.edh",
 			"settings": {
-				"foreground": "#CE6700"
+				"foreground": "#e77400"
 			}
 		},
 		{
 			"name": "Control in Expression",
 			"scope": "expr.keyword.control.edh",
 			"settings": {
-				"foreground": "#4d8e9e"
+				"foreground": "#64bacf"
 			}
 		},
 		{
 			"name": "Operator in Expression",
 			"scope": "expr.keyword.operator.edh",
 			"settings": {
-				"foreground": "#ac784c"
+				"foreground": "#d6945d"
 			}
 		},
 		{
 			"name": "Alphanumeric Variable",
 			"scope": "variable.other.alphanumeric.edh",
 			"settings": {
-				"foreground": "#699b8a"
+				"foreground": "#99e0c9"
 			}
 		},
 		{
 			"name": "Symbolic Variable",
 			"scope": "variable.other.symbolic.edh",
 			"settings": {
-				"foreground": "#6089B4"
+				"foreground": "#75a7dd"
 			}
 		},
 		{
 			"name": "Intrinsic Constant",
 			"scope": "constant.language.edh",
 			"settings": {
-				"foreground": "#6969d4"
+				"foreground": "#7373eb"
 			}
 		},
 		{
 			"name": "Intrinsic Variable",
 			"scope": "variable.language.edh",
 			"settings": {
-				"foreground": "#635ec4"
+				"foreground": "#6e69dd"
 			}
 		}
 	],
