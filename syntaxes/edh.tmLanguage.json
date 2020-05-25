@@ -73,7 +73,7 @@
 			]
 		},
 		"qstring-tripple-double": {
-			"name": "string.quoted.tripple.double.edh",
+			"name": "string.edh",
 			"begin": "\"\"\"",
 			"end": "\"\"\"",
 			"patterns": [
@@ -84,7 +84,7 @@
 			]
 		},
 		"qstring-tripple-single": {
-			"name": "string.quoted.tripple.single.edh",
+			"name": "string.edh",
 			"begin": "'''",
 			"end": "'''",
 			"patterns": [
@@ -95,7 +95,7 @@
 			]
 		},
 		"qstring-tripple-backtick": {
-			"name": "string.quoted.tripple.backtick.edh",
+			"name": "string.edh",
 			"begin": "```",
 			"end": "```",
 			"patterns": [
@@ -106,7 +106,7 @@
 			]
 		},
 		"qstring-double": {
-			"name": "string.quoted.double.edh",
+			"name": "string.edh",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
@@ -117,7 +117,7 @@
 			]
 		},
 		"qstring-single": {
-			"name": "string.quoted.single.edh",
+			"name": "string.edh",
 			"begin": "'",
 			"end": "'",
 			"patterns": [
@@ -128,7 +128,7 @@
 			]
 		},
 		"qstring-backtick": {
-			"name": "string.quoted.backtick.edh",
+			"name": "string.edh",
 			"begin": "`",
 			"end": "`",
 			"patterns": [
@@ -165,7 +165,7 @@
 					"end": "(?=$)",
 					"patterns": [
 						{
-							"name": "comment.line.hash.edh",
+							"name": "comment.line.edh",
 							"begin": "#",
 							"beginCaptures": {
 								"0": {
@@ -219,22 +219,22 @@
 							"name": "constant.numeric.decimal.edh"
 						},
 						"1": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						},
 						"2": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						},
 						"3": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						},
 						"4": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						},
 						"5": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						},
 						"6": {
-							"name": "meta.delimiter.decimal.period.edh"
+							"name": "meta.delimiter.decimal.period"
 						}
 					}
 				}

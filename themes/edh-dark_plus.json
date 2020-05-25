@@ -49,32 +49,44 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": "string.edh",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#98d449"
+				"foreground": "#ce9178"
 			}
 		},
 		{
-			"name": "Comment",
-			"scope": "comment.edh",
+			"name": "Decimal",
+			"scope": "constant.numeric.decimal.edh",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#b6dbb4"
+				"foreground": "#6A9955"
+			}
+		},
+		{
+			"name": "Line Comment",
+			"scope": "comment.line.edh",
+			"settings": {
+				"foreground": "#6A9955"
+			}
+		},
+		{
+			"name": "Block Comment",
+			"scope": "comment.block.edh",
+			"settings": {
+				"foreground": "#6A9955"
 			}
 		},
 		{
 			"name": "Expr Keyword",
 			"scope": "keyword.other.expr.edh",
 			"settings": {
-				"foreground": "#eb7601"
+				"foreground": "#5799df"
 			}
 		},
 		{
 			"name": "Sink Keyword",
 			"scope": "keyword.other.sink.edh",
 			"settings": {
-				"foreground": "#e77400"
+				"foreground": "#d3d630"
 			}
 		},
 		{
@@ -88,7 +100,7 @@
 			"name": "Operator in Expression",
 			"scope": "expr.keyword.operator.edh",
 			"settings": {
-				"foreground": "#d6945d"
+				"foreground": "#ca7e3f"
 			}
 		},
 		{
