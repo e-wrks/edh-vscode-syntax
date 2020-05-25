@@ -70,6 +70,17 @@
 				}
 			]
 		},
+		"qstring-tripple-backtick": {
+			"name": "string.quoted.tripple.backtick.edh",
+			"begin": "```",
+			"end": "```",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
 		"qstring-double": {
 			"name": "string.quoted.double.edh",
 			"begin": "\"",
@@ -85,6 +96,17 @@
 			"name": "string.quoted.single.edh",
 			"begin": "'",
 			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.edh",
+					"match": "\\\\."
+				}
+			]
+		},
+		"qstring-backtick": {
+			"name": "string.quoted.backtick.edh",
+			"begin": "`",
+			"end": "`",
 			"patterns": [
 				{
 					"name": "constant.character.escape.edh",
