@@ -1,0 +1,94 @@
+{
+	"type": "dark",
+	"include": "./dimmed-monokai-color-theme.json",
+	"tokenColors": [
+		{
+			"name": "Concurrency Control",
+			"scope": "keyword.concur.control",
+			"settings": {
+				"foreground": "#676867"
+			}
+		},
+		{
+			"name": "Keyword Control",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#9872A2"
+			}
+		},
+		{
+			"name": "Storage Type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#676867"
+			}
+		},
+		{
+			"name": "Storage Modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#878887"
+			}
+		},
+		{
+			"name": "Support Module",
+			"scope": "support.module",
+			"settings": {
+				"foreground": "#A7242A"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#C7444A"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9ABB99"
+			}
+		},
+		{
+			"name": "Expr Keyword",
+			"scope": "keyword.expr.edh",
+			"settings": {
+				"foreground": "#CE6700"
+			}
+		},
+		{
+			"name": "Control in Expression",
+			"scope": "keyword.control.expr.edh",
+			"settings": {
+				"foreground": "#008200"
+			}
+		},
+		{
+			"name": "Operator in Expression",
+			"scope": "keyword.operator.expr.edh",
+			"settings": {
+				"foreground": "#D08442"
+			}
+		},
+		{
+			"name": "Alphanumeric Variable",
+			"scope": "variable.other.alphanumeric.edh",
+			"settings": {
+				"foreground": "#6A9B69"
+			}
+		},
+		{
+			"name": "Symbolic Variable",
+			"scope": "variable.other.symbolic.edh",
+			"settings": {
+				"foreground": "#6089B4"
+			}
+		},
+	],
+	"semanticHighlighting": false
+}

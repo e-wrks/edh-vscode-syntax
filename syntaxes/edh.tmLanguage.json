@@ -6,13 +6,10 @@
 	],
 	"patterns": [
 		{
-			"include": "#punctuation-comma"
+			"include": "#statements"
 		},
 		{
-			"include": "#punctuation-semicolon"
-		},
-		{
-			"include": "#keywords"
+			"include": "#batteries"
 		},
 		{
 			"include": "#qstring-tripple-double"
@@ -37,14 +34,41 @@
 		},
 		{
 			"include": "#identifiers"
+		},
+		{
+			"include": "#punctuations"
 		}
 	],
 	"repository": {
-		"keywords": {
+		"statements": {
 			"patterns": [
 				{
+					"name": "keyword.concur.control.edh",
+					"match": "\\b(ai|go|defer)\\b"
+				},
+				{
 					"name": "keyword.control.edh",
-					"match": "\\b(ai|go|defer|import|export|effect|let|class|extends|method|generator|perceive|interpreter|producer|while|break|continue|fallthrough|operator|return|throw|pass)\\b"
+					"match": "\\b(while|break|continue|fallthrough|return|throw|pass)\\b"
+				},
+				{
+					"name": "storage.type.edh",
+					"match": "\\b(class|extends|method|generator|perceive|interpreter|producer|operator)\\b"
+				},
+				{
+					"name": "storage.modifier.edh",
+					"match": "\\b(import|export|effect|let)\\b"
+				}
+			]
+		},
+		"batteries": {
+			"patterns": [
+				{
+					"name": "support.module.edh",
+					"match": "\\b(console)\\b"
+				},
+				{
+					"name": "support.function.edh",
+					"match": "\\b(null|type|pkargs|error|print|debug|mre|latestEvent|concur|abs|max|min|makeOp|makeExpr)\\b"
 				}
 			]
 		},
@@ -267,43 +291,39 @@
 		"expressions": {
 			"patterns": [
 				{
-					"name": "variable.separator.dot.edh",
-					"match": "\\."
+					"name": "keyword.other.expr.edh",
+					"match": "\\bexpr\\b"
 				},
 				{
-					"name": "keyword.operator.edh",
-					"match": "[\\=\\~\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\+\\-\\*/\\[\\]]+"
-				},
-				{
-					"name": "keyword.expression.sink.edh",
+					"name": "keyword.expr.sink.edh",
 					"match": "\\bsink\\b"
 				},
 				{
-					"name": "keyword.operator.not.edh",
+					"name": "keyword.operator.expr.not.edh",
 					"match": "\\bnot\\b"
 				},
 				{
-					"name": "keyword.operator.if.edh",
+					"name": "keyword.control.expr.if.edh",
 					"match": "\\b(if|then|else)\\b"
 				},
 				{
-					"name": "keyword.operator.case.edh",
+					"name": "keyword.control.expr.case.edh",
 					"match": "\\b(case|of)\\b"
 				},
 				{
-					"name": "keyword.expression.yield.edh",
+					"name": "keyword.control.expr.yield.edh",
 					"match": "\\byield\\b"
 				},
 				{
-					"name": "keyword.expression.for.edh",
+					"name": "keyword.control.expr.for.edh",
 					"match": "\\b(for|from|do)\\b"
 				},
 				{
-					"name": "keyword.expression.perform.edh",
+					"name": "keyword.control.expr.perform.edh",
 					"match": "\\b(perform|behave)\\b"
 				},
 				{
-					"name": "keyword.operator.as.edh",
+					"name": "keyword.control.expr.as.edh",
 					"match": "\\bas\\b"
 				}
 			]
@@ -311,22 +331,34 @@
 		"identifiers": {
 			"patterns": [
 				{
-					"name": "variable.symbolic.readwrite.edh",
-					"match": "@[_[:alpha:]][_'[:alnum:]]*"
+					"name": "variable.other.symbolic.edh",
+					"match": "\\@[_[:alpha:]][_'[:alnum:]]*"
 				},
 				{
-					"name": "variable.alphanumeric.readwrite.edh",
+					"name": "variable.other.alphanumeric.edh",
 					"match": "[_[:alpha:]][_'[:alnum:]]*"
 				}
 			]
 		},
-		"punctuation-comma": {
-			"name": "punctuation.separator.comma.edh",
-			"match": ","
-		},
-		"punctuation-semicolon": {
-			"name": "punctuation.terminator.statement.edh",
-			"match": ";"
+		"punctuations": {
+			"patterns": [
+				{
+					"name": "punctuation.separator.variable.dot.edh",
+					"match": "\b\\.\b"
+				},
+				{
+					"name": "keyword.operator.expr.edh",
+					"match": "[\\=\\~\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\+\\-\\*/\\[\\]]+"
+				},
+				{
+					"name": "punctuation.separator.comma.edh",
+					"match": ","
+				},
+				{
+					"name": "punctuation.terminator.statement.edh",
+					"match": ";"
+				}
+			]
 		}
 	}
 }

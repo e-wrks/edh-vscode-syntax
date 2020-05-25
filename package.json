@@ -33,6 +33,13 @@
                 "scopeName": "source.edh",
                 "path": "./syntaxes/edh.tmLanguage.json"
             }
+        ],
+        "themes": [
+            {
+                "label": "Edh - Monokai Dimmed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/edh-dimmed-monokai-color-theme.json"
+            }
         ]
     }
 }
