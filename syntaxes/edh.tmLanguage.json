@@ -64,11 +64,11 @@
 			"patterns": [
 				{
 					"name": "support.module.edh",
-					"match": "\\b(console)\\b"
+					"match": "\\b(console|batteries|debug)\\b"
 				},
 				{
 					"name": "support.function.edh",
-					"match": "\\b(null|type|pkargs|error|print|debug|mre|latestEvent|concur|abs|max|min|makeOp|makeExpr)\\b"
+					"match": "\\b(null|type|constructor|pkargs|dict|error|print|mre|eos|latestEvent|concur|abs|max|min|Symbol|repr|scope|makeOp|makeExpr)\\b"
 				}
 			]
 		},
