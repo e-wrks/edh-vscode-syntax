@@ -47,6 +47,14 @@
 			}
 		},
 		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#78a83a"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": "comment.edh",
 			"settings": {
@@ -86,7 +94,7 @@
 			"name": "Alphanumeric Variable",
 			"scope": "variable.other.alphanumeric.edh",
 			"settings": {
-				"foreground": "#6A9B69"
+				"foreground": "#699b8a"
 			}
 		},
 		{
