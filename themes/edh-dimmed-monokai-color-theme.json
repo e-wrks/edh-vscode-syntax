@@ -12,7 +12,7 @@
 		{
 			"name": "Keyword Control",
 			"scope": [
-				"keyword.control.edh",
+				"keyword.control.edh"
 			],
 			"settings": {
 				"foreground": "#9872A2"
@@ -29,7 +29,7 @@
 			"name": "Storage Modifier",
 			"scope": "storage.modifier.edh",
 			"settings": {
-				"foreground": "#878887"
+				"foreground": "#414241"
 			}
 		},
 		{
@@ -100,7 +100,7 @@
 			"name": "Intrinsic Constant",
 			"scope": "constant.language.edh",
 			"settings": {
-				"foreground": "#6969d4",
+				"foreground": "#6969d4"
 			}
 		},
 		{
