@@ -128,7 +128,7 @@
 			"name": "Intrinsic Variable",
 			"scope": "variable.language.edh",
 			"settings": {
-				"foreground": "#6e69dd"
+				"foreground": "#ec3f3f"
 			}
 		}
 	],
