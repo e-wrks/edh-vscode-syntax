@@ -114,7 +114,7 @@
 			"name": "Symbolic Variable",
 			"scope": "variable.other.symbolic.edh",
 			"settings": {
-				"foreground": "#75a7dd"
+				"foreground": "#a5ce77"
 			}
 		},
 		{
@@ -128,7 +128,7 @@
 			"name": "Intrinsic Variable",
 			"scope": "variable.language.edh",
 			"settings": {
-				"foreground": "#ec3f3f"
+				"foreground": "#b34d52"
 			}
 		}
 	],
