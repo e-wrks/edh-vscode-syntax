@@ -48,7 +48,7 @@
 				},
 				{
 					"name": "keyword.control.edh",
-					"match": "\\b(while|break|continue|fallthrough|return|throw|pass)\\b"
+					"match": "\\b(while|break|continue|fallthrough|return|throw|rethrow|pass)\\b"
 				},
 				{
 					"name": "storage.type.edh",
