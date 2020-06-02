@@ -12,18 +12,6 @@
 			"include": "#batteries"
 		},
 		{
-			"include": "#qstring-tripple-double"
-		},
-		{
-			"include": "#qstring-tripple-single"
-		},
-		{
-			"include": "#qstring-double"
-		},
-		{
-			"include": "#qstring-single"
-		},
-		{
 			"include": "#comment"
 		},
 		{
@@ -37,6 +25,24 @@
 		},
 		{
 			"include": "#punctuations"
+		},
+		{
+			"include": "#qstring-tripple-double"
+		},
+		{
+			"include": "#qstring-tripple-single"
+		},
+		{
+			"include": "#qstring-tripple-backtick"
+		},
+		{
+			"include": "#qstring-double"
+		},
+		{
+			"include": "#qstring-single"
+		},
+		{
+			"include": "#qstring-backtick"
 		}
 	],
 	"repository": {
@@ -44,19 +50,19 @@
 			"patterns": [
 				{
 					"name": "keyword.concur.control.edh",
-					"match": "\\b(ai|go|defer|perceive)\\b"
+					"match": "(?<![_'[:alnum:]])(ai|go|defer|perceive)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "keyword.control.edh",
-					"match": "\\b(while|break|continue|fallthrough|return|throw|rethrow|pass)\\b"
+					"match": "(?<![_'[:alnum:]])(while|break|continue|fallthrough|return|throw|rethrow|pass)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "storage.type.edh",
-					"match": "\\b(extends|class|method|generator|interpreter|producer|operator)\\b"
+					"match": "(?<![_'[:alnum:]])(extends|class|method|generator|interpreter|producer|operator)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "storage.modifier.edh",
-					"match": "\\b(import|export|effect|let)\\b"
+					"match": "(?<![_'[:alnum:]])(import|export|effect|let)(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -64,11 +70,11 @@
 			"patterns": [
 				{
 					"name": "support.module.edh",
-					"match": "\\b(console|batteries|debug)\\b"
+					"match": "(?<![_'[:alnum:]])(console|batteries|debug)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "support.function.edh",
-					"match": "\\b(null|type|constructor|pkargs|dict|error|print|mre|eos|latestEvent|concur|abs|max|min|Symbol|repr|scope|makeOp|makeExpr)\\b"
+					"match": "(?<![_'[:alnum:]])(null|type|constructor|pkargs|dict|error|print|mre|eos|latestEvent|concur|abs|max|min|Symbol|repr|scope|makeOp|makeExpr)(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -207,36 +213,17 @@
 				},
 				{
 					"include": "#supers-literal"
+				},
+				{
+					"include": "#super-literal"
 				}
 			]
 		},
 		"numeric-literal": {
 			"patterns": [
 				{
-					"match": "(?x)\n(?<!\\$)(?:\n  (?:\\b[0-9]+(\\.)[0-9]+[eE][+-]?[0-9]+\\b)| # 1.1E+3\n  (?:\\b[0-9]+(\\.)[eE][+-]?[0-9]+\\b)|       # 1.E+3\n  (?:\\B(\\.)[0-9]+[eE][+-]?[0-9]+\\b)|       # .1E+3\n  (?:\\b[0-9]+[eE][+-]?[0-9]+\\b)|            # 1E+3\n  (?:\\b[0-9]+(\\.)[0-9]+\\b)|                # 1.1\n  (?:\\b[0-9]+(\\.)\\B)|                      # 1.\n  (?:\\B(\\.)[0-9]+\\b)|                      # .1\n  (?:\\b[0-9]+\\b(?!\\.))                     # 1\n)(?!\\$)",
-					"captures": {
-						"0": {
-							"name": "constant.numeric.decimal.edh"
-						},
-						"1": {
-							"name": "meta.delimiter.decimal.period"
-						},
-						"2": {
-							"name": "meta.delimiter.decimal.period"
-						},
-						"3": {
-							"name": "meta.delimiter.decimal.period"
-						},
-						"4": {
-							"name": "meta.delimiter.decimal.period"
-						},
-						"5": {
-							"name": "meta.delimiter.decimal.period"
-						},
-						"6": {
-							"name": "meta.delimiter.decimal.period"
-						}
-					}
+					"name": "constant.numeric.decimal.edh",
+					"match": "\\b[0-9]+(\\.[0-9]+)?([eE][\\+\\-]?[0-9]+)?"
 				}
 			]
 		},
@@ -244,47 +231,51 @@
 			"patterns": [
 				{
 					"name": "constant.language.edh",
-					"match": "\\btrue\\b"
+					"match": "(?<![_'[:alnum:]])true(?![_'[:alnum:]])"
 				},
 				{
 					"name": "constant.language.edh",
-					"match": "\\bfalse\\b"
+					"match": "(?<![_'[:alnum:]])false(?![_'[:alnum:]])"
 				}
 			]
 		},
 		"nil-literal": {
 			"name": "constant.language.edh",
-			"match": "\\bnil\\b"
+			"match": "(?<![_'[:alnum:]])nil(?![_'[:alnum:]])"
 		},
 		"none-literal": {
 			"name": "constant.language.edh",
-			"match": "\\bNone\\b"
+			"match": "(?<![_'[:alnum:]])None(?![_'[:alnum:]])"
 		},
 		"nothing-literal": {
 			"name": "constant.language.edh",
-			"match": "\\bNothing\\b"
+			"match": "(?<![_'[:alnum:]])Nothing(?![_'[:alnum:]])"
 		},
 		"this-literal": {
 			"name": "variable.language.edh",
-			"match": "\\bthis\\b"
+			"match": "(?<![_'[:alnum:]])this(?![_'[:alnum:]])"
 		},
 		"that-literal": {
 			"name": "variable.language.edh",
-			"match": "\\bthat\\b"
+			"match": "(?<![_'[:alnum:]])that(?![_'[:alnum:]])"
 		},
 		"supers-literal": {
 			"name": "variable.language.edh",
-			"match": "\\bsupers\\b"
+			"match": "(?<![_'[:alnum:]])supers(?![_'[:alnum:]])"
+		},
+		"super-literal": {
+			"name": "variable.language.edh",
+			"match": "(?<![_'[:alnum:]])super(?![_'[:alnum:]])"
 		},
 		"numericConstant-literal": {
 			"patterns": [
 				{
 					"name": "constant.language.edh",
-					"match": "\\bnan\\b"
+					"match": "(?<![_'[:alnum:]])nan(?![_'[:alnum:]])"
 				},
 				{
 					"name": "constant.language.edh",
-					"match": "\\binf\\b"
+					"match": "(?<![_'[:alnum:]])inf(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -292,39 +283,39 @@
 			"patterns": [
 				{
 					"name": "keyword.other.expr.edh",
-					"match": "\\bexpr\\b"
+					"match": "(?<![_'[:alnum:]])expr(?![_'[:alnum:]])"
 				},
 				{
 					"name": "keyword.other.sink.edh",
-					"match": "\\bsink\\b"
+					"match": "(?<![_'[:alnum:]])sink(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.operator.edh",
-					"match": "\\bnot\\b"
+					"match": "(?<![_'[:alnum:]])not(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\b(if|then|else)\\b"
+					"match": "(?<![_'[:alnum:]])(if|then|else)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\b(case|of)\\b"
+					"match": "(?<![_'[:alnum:]])(case|of)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\byield\\b"
+					"match": "(?<![_'[:alnum:]])yield(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\b(for|from|do)\\b"
+					"match": "(?<![_'[:alnum:]])(for|from|do)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\b(perform|behave)\\b"
+					"match": "(?<![_'[:alnum:]])(perform|behave)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "\\bas\\b"
+					"match": "(?<![_'[:alnum:]])as(?![_'[:alnum:]])"
 				}
 			]
 		},
