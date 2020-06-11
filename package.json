@@ -4,8 +4,8 @@
         "url": "https://github.com/e-wrks/edh-vscode-syntax"
     },
     "name": "edh-vscode-syntax",
-    "displayName": "Edh Syntax Highlighting",
-    "description": "Syntax Highlighting for Edh",
+    "displayName": "Đ (Edh) Syntax Highlighting",
+    "description": "Syntax Highlighting for Đ (Edh)",
     "version": "1.7.0",
     "engines": {
         "vscode": "^1.0.0"
@@ -37,7 +37,7 @@
         "themes": [
             {
                 "id": "Edh - Dark+",
-                "label": "Edh - Dark+",
+                "label": "Đ (Edh) - Dark+",
                 "uiTheme": "vs-dark",
                 "path": "./themes/edh-dark_plus.json"
             }

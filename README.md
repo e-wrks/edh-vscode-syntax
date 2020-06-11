@@ -1,6 +1,6 @@
-# VSCode Minimum Syntax Highlight for Edh
+# VSCode Minimum Syntax Highlight for Đ (Edh)
 
 This extension provides minimum syntax highlighting for
-[Edh](https://github.com/e-wrks/edh)
+[Đ (Edh)](https://github.com/e-wrks/edh)
 
-Designed to be used with bundled **Edh - Dark+** theme.
+Best experience with the bundled **Đ (Edh) - Dark+** theme.
