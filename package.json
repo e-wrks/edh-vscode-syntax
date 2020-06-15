@@ -7,7 +7,7 @@
     "name": "edh-vscode-syntax",
     "displayName": "Đ (Edh) Syntax Highlighting",
     "description": "Syntax Highlighting for Đ (Edh)",
-    "version": "1.7.2",
+    "version": "1.7.3",
     "engines": {
         "vscode": "^1.0.0"
     },
