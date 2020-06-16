@@ -74,7 +74,7 @@
 				},
 				{
 					"name": "support.function.edh",
-					"match": "(?<![_'[:alnum:]])(null|type|constructor|dict|error|print|mre|eos|latestEvent|abs|max|min|Symbol|repr|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(null|type|constructor|dict|error|print|mre|eos|latestEvent|abs|max|min|Symbol|repr|range|enumerate|replicate|zip|zip3|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
 				}
 			]
 		},
