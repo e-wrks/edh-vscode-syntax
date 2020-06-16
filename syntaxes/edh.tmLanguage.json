@@ -58,7 +58,7 @@
 				},
 				{
 					"name": "storage.type.edh",
-					"match": "(?<![_'[:alnum:]])(extends|class|method|generator|interpreter|producer|operator)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(extends|namespace|class|method|generator|interpreter|producer|operator)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "storage.modifier.edh",
@@ -74,7 +74,7 @@
 				},
 				{
 					"name": "support.function.edh",
-					"match": "(?<![_'[:alnum:]])(null|type|constructor|pkargs|dict|error|print|mre|eos|latestEvent|abs|max|min|Symbol|repr|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(null|type|constructor|dict|error|print|mre|eos|latestEvent|abs|max|min|Symbol|repr|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -323,7 +323,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.symbolic.edh",
-					"match": "\\@[_[:alpha:]][_'[:alnum:]]*"
+					"match": "\\@\\s*[_[:alpha:]][_'[:alnum:]]*"
 				},
 				{
 					"name": "variable.other.alphanumeric.edh",
