@@ -62,7 +62,7 @@
 				},
 				{
 					"name": "storage.modifier.edh",
-					"match": "(?<![_'[:alnum:]])(import|export|effect|let)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(import|into|export|effect|let)(?![_'[:alnum:]])"
 				}
 			]
 		},
