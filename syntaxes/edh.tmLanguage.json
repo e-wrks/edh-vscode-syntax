@@ -294,6 +294,10 @@
 					"match": "(?<![_'[:alnum:]])not(?![_'[:alnum:]])"
 				},
 				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])is(?![_'[:alnum:]])"
+				},
+				{
 					"name": "expr.keyword.control.edh",
 					"match": "(?<![_'[:alnum:]])(if|then|else)(?![_'[:alnum:]])"
 				},
