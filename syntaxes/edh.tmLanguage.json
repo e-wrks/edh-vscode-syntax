@@ -319,6 +319,10 @@
 				},
 				{
 					"name": "expr.keyword.control.edh",
+					"match": "(?<![_'[:alnum:]])default(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.control.edh",
 					"match": "(?<![_'[:alnum:]])as(?![_'[:alnum:]])"
 				}
 			]
