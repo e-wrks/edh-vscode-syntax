@@ -197,6 +197,9 @@
 					"include": "#nil-literal"
 				},
 				{
+					"include": "#not-applicable-literal"
+				},
+				{
 					"include": "#none-literal"
 				},
 				{
@@ -242,6 +245,10 @@
 		"nil-literal": {
 			"name": "constant.language.edh",
 			"match": "(?<![_'[:alnum:]])nil(?![_'[:alnum:]])"
+		},
+		"not-applicable-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])NA(?![_'[:alnum:]])"
 		},
 		"none-literal": {
 			"name": "constant.language.edh",
