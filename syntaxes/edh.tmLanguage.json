@@ -338,7 +338,7 @@
 			"patterns": [
 				{
 					"name": "variable.other.symbolic.edh",
-					"match": "\\@\\s*[_[:alpha:]][_'[:alnum:]]*"
+					"match": "\\@[_[:alpha:]][_'[:alnum:]]*"
 				},
 				{
 					"name": "variable.other.alphanumeric.edh",
