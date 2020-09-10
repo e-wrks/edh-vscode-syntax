@@ -41,6 +41,12 @@
                 "label": "Đ (Edh) - Dark+",
                 "uiTheme": "vs-dark",
                 "path": "./themes/edh-dark_plus.json"
+            },
+            {
+                "id": "Edh - Groovy Lambda",
+                "label": "Đ (Edh) - Groovy Lambda",
+                "uiTheme": "vs-dark",
+                "path": "./themes/edh-GroovyLambda.json"
             }
         ]
     }

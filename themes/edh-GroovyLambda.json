@@ -1,0 +1,136 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+	"include": "./GroovyLambda-color-theme.json",
+	"tokenColors": [
+		{
+			"name": "Concurrency Control",
+			"scope": "keyword.concur.control",
+			"settings": {
+				"foreground": "#d3d630"
+			}
+		},
+		{
+			"name": "Keyword Control",
+			"scope": [
+				"keyword.control.edh"
+			],
+			"settings": {
+				"foreground": "#c393cf"
+			}
+		},
+		{
+			"name": "Storage Type",
+			"scope": "storage.type.edh",
+			"settings": {
+				"foreground": "#b9b9b9"
+			}
+		},
+		{
+			"name": "Storage Modifier",
+			"scope": "storage.modifier.edh",
+			"settings": {
+				"foreground": "#dadada"
+			}
+		},
+		{
+			"name": "Support Module",
+			"scope": "support.module.edh",
+			"settings": {
+				"foreground": "#c76267"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": "support.function.edh",
+			"settings": {
+				"foreground": "#dd676d"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string.edh",
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "Decimal",
+			"scope": "constant.numeric.decimal.edh",
+			"settings": {
+				"foreground": "#5799df"
+			}
+		},
+		{
+			"name": "Line Comment",
+			"scope": "comment.line.edh",
+			"settings": {
+				"foreground": "#6A9955"
+			}
+		},
+		{
+			"name": "Block Comment",
+			"scope": "comment.block.edh",
+			"settings": {
+				"foreground": "#6A9955"
+			}
+		},
+		{
+			"name": "Expr Keyword",
+			"scope": "keyword.other.expr.edh",
+			"settings": {
+				"foreground": "#d3d475"
+			}
+		},
+		{
+			"name": "Sink Keyword",
+			"scope": "keyword.other.sink.edh",
+			"settings": {
+				"foreground": "#d3d630"
+			}
+		},
+		{
+			"name": "Control in Expression",
+			"scope": "expr.keyword.control.edh",
+			"settings": {
+				"foreground": "#64bacf"
+			}
+		},
+		{
+			"name": "Operator in Expression",
+			"scope": "expr.keyword.operator.edh",
+			"settings": {
+				"foreground": "#ca7e3f"
+			}
+		},
+		{
+			"name": "Alphanumeric Variable",
+			"scope": "variable.other.alphanumeric.edh",
+			"settings": {
+				"foreground": "#99e0c9"
+			}
+		},
+		{
+			"name": "Symbolic Variable",
+			"scope": "variable.other.symbolic.edh",
+			"settings": {
+				"foreground": "#a5ce77"
+			}
+		},
+		{
+			"name": "Intrinsic Constant",
+			"scope": "constant.language.edh",
+			"settings": {
+				"foreground": "#7373eb"
+			}
+		},
+		{
+			"name": "Intrinsic Variable",
+			"scope": "variable.language.edh",
+			"settings": {
+				"foreground": "#b34d52"
+			}
+		}
+	],
+	"semanticHighlighting": true
+}
