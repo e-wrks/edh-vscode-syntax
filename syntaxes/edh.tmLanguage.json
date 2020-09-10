@@ -206,6 +206,15 @@
 					"include": "#nothing-literal"
 				},
 				{
+					"include": "#equal-literal"
+				},
+				{
+					"include": "#less-than-literal"
+				},
+				{
+					"include": "#greater-than-literal"
+				},
+				{
 					"include": "#numericConstant-literal"
 				},
 				{
@@ -257,6 +266,18 @@
 		"nothing-literal": {
 			"name": "constant.language.edh",
 			"match": "(?<![_'[:alnum:]])Nothing(?![_'[:alnum:]])"
+		},
+		"equal-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])EQ(?![_'[:alnum:]])"
+		},
+		"less-than-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])LT(?![_'[:alnum:]])"
+		},
+		"greater-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])GT(?![_'[:alnum:]])"
 		},
 		"this-literal": {
 			"name": "variable.language.edh",
