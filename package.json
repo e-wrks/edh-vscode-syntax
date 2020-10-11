@@ -37,6 +37,18 @@
         ],
         "themes": [
             {
+                "id": "Edh - CalmWarm",
+                "label": "Đ (Edh) - Calm Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/edh-CalmWarm.json"
+            },
+            {
+                "id": "CalmWarm",
+                "label": "Calm Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/CalmWarm.json"
+            },
+            {
                 "id": "Edh - Dark+",
                 "label": "Đ (Edh) - Dark+",
                 "uiTheme": "vs-dark",
