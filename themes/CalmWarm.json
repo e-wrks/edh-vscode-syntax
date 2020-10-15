@@ -2,6 +2,8 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Calm Warm",
 	"type": "dark",
+	// derived from https://github.com/sheaf/groovy-lambda
+	// see license: https://github.com/sheaf/groovy-lambda/blob/master/LICENSE
 	// Editor colors: Calm Warm
 	"colors": {
 		"activityBar.activeBorder": "#a89984",
