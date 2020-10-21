@@ -74,7 +74,7 @@
 				},
 				{
 					"name": "support.function.edh",
-					"match": "(?<![_'[:alnum:]])(null|type|constructor|property|setter|dict|error|assert|print|abs|max|min|Symbol|id|blob|str|repr|show|desc|cap|grow|len|mark|range|enumerate|replicate|zip|zip3|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(null|type|constructor|supers|property|setter|dict|error|assert|print|abs|max|min|Symbol|id|blob|str|repr|show|desc|cap|grow|len|mark|range|enumerate|replicate|zip|zip3|scope|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -224,9 +224,6 @@
 					"include": "#that-literal"
 				},
 				{
-					"include": "#supers-literal"
-				},
-				{
 					"include": "#super-literal"
 				}
 			]
@@ -286,10 +283,6 @@
 		"that-literal": {
 			"name": "variable.language.edh",
 			"match": "(?<![_'[:alnum:]])that(?![_'[:alnum:]])"
-		},
-		"supers-literal": {
-			"name": "variable.language.edh",
-			"match": "(?<![_'[:alnum:]])supers(?![_'[:alnum:]])"
 		},
 		"super-literal": {
 			"name": "variable.language.edh",
