@@ -206,6 +206,12 @@
 					"include": "#nothing-literal"
 				},
 				{
+					"include": "#all-literal"
+				},
+				{
+					"include": "#any-literal"
+				},
+				{
 					"include": "#equal-literal"
 				},
 				{
@@ -263,6 +269,14 @@
 		"nothing-literal": {
 			"name": "constant.language.edh",
 			"match": "(?<![_'[:alnum:]])Nothing(?![_'[:alnum:]])"
+		},
+		"all-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])All(?![_'[:alnum:]])"
+		},
+		"any-literal": {
+			"name": "constant.language.edh",
+			"match": "(?<![_'[:alnum:]])Any(?![_'[:alnum:]])"
 		},
 		"equal-literal": {
 			"name": "constant.language.edh",
