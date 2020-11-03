@@ -58,7 +58,7 @@
 				},
 				{
 					"name": "storage.type.edh",
-					"match": "(?<![_'[:alnum:]])(extends|namespace|module|class|data|method|generator|interpreter|producer|operator)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(extends|namespace|module|class|data|method|generator|interpreter|producer|operator|infix|infixl|infixr)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "storage.modifier.edh",
