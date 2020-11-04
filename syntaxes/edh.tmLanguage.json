@@ -286,7 +286,7 @@
 			"name": "constant.language.edh",
 			"match": "(?<![_'[:alnum:]])LT(?![_'[:alnum:]])"
 		},
-		"greater-literal": {
+		"greater-than-literal": {
 			"name": "constant.language.edh",
 			"match": "(?<![_'[:alnum:]])GT(?![_'[:alnum:]])"
 		},
