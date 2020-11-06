@@ -337,6 +337,14 @@
 					"match": "(?<![_'[:alnum:]])is(?![_'[:alnum:]])"
 				},
 				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])and(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])or(?![_'[:alnum:]])"
+				},
+				{
 					"name": "expr.keyword.control.edh",
 					"match": "(?<![_'[:alnum:]])(if|then|else)(?![_'[:alnum:]])"
 				},
