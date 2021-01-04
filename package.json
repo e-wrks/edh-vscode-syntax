@@ -28,6 +28,12 @@
                 "configuration": "./language-configuration.json"
             }
         ],
+        "snippets": [
+            {
+                "language": "edh",
+                "path": "./snippets/doccmt.json"
+            }
+        ],
         "grammars": [
             {
                 "language": "edh",

@@ -1,0 +1,20 @@
+{
+  "Full Doc Comment": {
+    "prefix": "",
+    "body": [
+      "{##",
+      " # $1",
+      " #}"
+    ],
+    "description": "Insert a doc comment"
+  },
+  "Completing Doc Comment": {
+    "prefix": "{##",
+    "body": [
+      "{##",
+      " # $1",
+      " #"
+    ],
+    "description": "Complete a doc comment"
+  }
+}
