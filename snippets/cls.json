@@ -2,7 +2,27 @@
   "data class definition": {
     "prefix": "data",
     "body": [
-      "data ${1:Data'Name}( ${2:data'Field1} ) {$3}",
+      "data ${1:Data'Name}( ${2:data'Fields} ) ${0:pass}",
+      ""
+    ],
+    "description": "Define a new data class"
+  },
+  "data subclass definition": {
+    "prefix": "data",
+    "body": [
+      "data ${1:Data'Name}( ${2:data'Fields} ) extends ( ${0:Super'Classes} )",
+      ""
+    ],
+    "description": "Define a new data class"
+  },
+  "pattern data class definition": {
+    "prefix": "data",
+    "body": [
+      "data ${1:Data'Name}( ${2:data'Fields} ) {",
+      "  method __match__(v) {",
+      "    return $1( $2 )",
+      "  }",
+      "}",
       ""
     ],
     "description": "Define a new data class"
@@ -11,7 +31,21 @@
     "prefix": "class",
     "body": [
       "class ${1:Class'Name} {",
-      "  $3",
+      "  method __init__( ${2:ctor'Args} ) {",
+      "    $0",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Define a new data class"
+  },
+  "subclass definition": {
+    "prefix": "class",
+    "body": [
+      "class ${1:Class'Name} { extends ( ${2:Super'Classes} )",
+      "  method __init__( ${3:ctor'Args} ) {",
+      "    $0",
+      "  }",
       "}",
       ""
     ],
