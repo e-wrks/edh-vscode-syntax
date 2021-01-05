@@ -1,0 +1,20 @@
+{
+  "data class definition": {
+    "prefix": "data",
+    "body": [
+      "data ${1:Data'Name}( ${2:data'Field1} ) {$3}",
+      ""
+    ],
+    "description": "Define a new data class"
+  },
+  "class definition": {
+    "prefix": "class",
+    "body": [
+      "class ${1:Class'Name} {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new data class"
+  }
+}

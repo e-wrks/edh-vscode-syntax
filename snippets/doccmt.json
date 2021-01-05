@@ -1,20 +1,22 @@
 {
-  "Full Doc Comment": {
-    "prefix": "",
-    "body": [
-      "{##",
-      " # $1",
-      " #}"
-    ],
-    "description": "Insert a doc comment"
-  },
-  "Completing Doc Comment": {
+  "Doc Comment": {
     "prefix": "{##",
     "body": [
       "{##",
-      " # $1",
+      " # $0",
       " #"
     ],
+    "TODO": "supply the closing brace `}` when an opening brack `{` is not typed by user, how?",
     "description": "Complete a doc comment"
+  },
+  "Block Comment": {
+    "prefix": "{#",
+    "body": [
+      "{#",
+      " # $0",
+      " #"
+    ],
+    "TODO": "supply the closing brace `}` when an opening brack `{` is not typed by user, how?",
+    "description": "Insert a doc comment"
   }
 }

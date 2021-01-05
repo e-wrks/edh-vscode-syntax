@@ -32,6 +32,18 @@
             {
                 "language": "edh",
                 "path": "./snippets/doccmt.json"
+            },
+            {
+                "language": "edh",
+                "path": "./snippets/ref.json"
+            },
+            {
+                "language": "edh",
+                "path": "./snippets/mth.json"
+            },
+            {
+                "language": "edh",
+                "path": "./snippets/cls.json"
             }
         ],
         "grammars": [

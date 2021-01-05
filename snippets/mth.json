@@ -1,0 +1,52 @@
+{
+  "void method definition": {
+    "prefix": "void method",
+    "body": [
+      "method ${1:method'Name}( ${2:mth'Arg1} ) void {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new void method"
+  },
+  "method definition": {
+    "prefix": "method",
+    "body": [
+      "method ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new vanilla method"
+  },
+  "generator definition": {
+    "prefix": "generator",
+    "body": [
+      "generator ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new generator method"
+  },
+  "interpreter definition": {
+    "prefix": "interpreter",
+    "body": [
+      "interpreter ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new interpreter method"
+  },
+  "producer definition": {
+    "prefix": "producer",
+    "body": [
+      "producer ${1:method'Name}( ${2:mth'Arg1}, outlet= sink ) {",
+      "  $3",
+      "}",
+      ""
+    ],
+    "description": "Define a new producer method"
+  }
+}

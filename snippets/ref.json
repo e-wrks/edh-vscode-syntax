@@ -1,0 +1,17 @@
+{
+  "this reference": {
+    "prefix": "this",
+    "body": "this",
+    "description": "address the contextual instance of current object"
+  },
+  "that reference": {
+    "prefix": "that",
+    "body": "that",
+    "description": "address the end instance of current object"
+  },
+  "super reference": {
+    "prefix": "super",
+    "body": "super",
+    "description": "to address super methods from current object"
+  }
+}
