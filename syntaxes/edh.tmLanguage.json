@@ -321,7 +321,7 @@
 			"patterns": [
 				{
 					"name": "constant.language.edh",
-					"match": "(?<![_'[:alnum:]])(DecimalType|BoolType|StringType|BlobType|SymbolType|ObjectType|DictType|ListType|PairType|ArgsPackType|BlockType|IntrinsicType|HostClassType|HostMethodType|HostOperType|HostGenrType|ClassType|MethodType|OperatorType|GeneratorType|InterpreterType|ProducerType|DescriptorType|BreakType|ContinueType|CaseCloseType|CaseOtherType|FallthroughType|RethrowType|YieldType|ReturnType|OrdType|DefaultType|SinkType|ExprType|TypeTyp)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(DecimalType|BoolType|StringType|BlobType|SymbolType|ObjectType|DictType|ListType|PairType|ArgsPackType|IntrinsicType|HostClassType|HostMethodType|HostOperType|HostGenrType|ClassType|MethodType|OperatorType|GeneratorType|InterpreterType|ProducerType|DescriptorType|BreakType|ContinueType|CaseCloseType|CaseOtherType|FallthroughType|RethrowType|YieldType|ReturnType|OrdType|DefaultType|SinkType|ExprType|TypeTyp)(?![_'[:alnum:]])"
 				}
 			]
 		},
