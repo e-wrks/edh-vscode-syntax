@@ -1,4 +1,9 @@
 {
+  "Đ the letter": {
+    "prefix": "edh",
+    "body": "Đ",
+    "description": "Insert Đ the letter"
+  },
   "Doc Comment": {
     "prefix": "{##",
     "body": [
