@@ -1,18 +1,23 @@
 {
-  "Đ the letter": {
-    "prefix": "edh",
-    "body": "Đ",
-    "description": "Insert Đ the letter"
+  "Doc Block": {
+    "prefix": "{",
+    "body": [
+      "{## $0",
+      " # $1",
+      " #} {",
+      ";",
+      ""
+    ],
+    "description": "a doc block"
   },
   "Doc Comment": {
-    "prefix": "{##",
+    "prefix": "{",
     "body": [
-      "{##",
-      " # $0",
+      "{## $0",
+      " # $1",
       " #"
     ],
-    "TODO": "supply the closing brace `}` when an opening brack `{` is not typed by user, how?",
-    "description": "Complete a doc comment"
+    "description": "a doc comment"
   },
   "Block Comment": {
     "prefix": "{#",
@@ -21,7 +26,11 @@
       " # $0",
       " #"
     ],
-    "TODO": "supply the closing brace `}` when an opening brack `{` is not typed by user, how?",
-    "description": "Insert a doc comment"
+    "description": "a block comment"
+  },
+  "Đ the letter": {
+    "prefix": "Edh",
+    "body": "Đ",
+    "description": "Insert Đ the letter"
   }
 }
