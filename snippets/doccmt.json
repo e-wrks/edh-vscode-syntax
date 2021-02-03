@@ -2,10 +2,11 @@
   "Doc Block": {
     "prefix": "{",
     "body": [
-      "{## $0",
-      " # $1",
+      "{## ${1:title}",
+      " # ${2:- summary}",
+      " # ${3:details}",
       " #} {",
-      ";",
+      "${0:; # nested code block(s)}",
       ""
     ],
     "description": "a doc block"
@@ -13,8 +14,8 @@
   "Doc Comment": {
     "prefix": "{",
     "body": [
-      "{## $0",
-      " # $1",
+      "{## ${1:summary}",
+      " # ${0:details}",
       " #"
     ],
     "description": "a doc comment"
@@ -22,7 +23,7 @@
   "Block Comment": {
     "prefix": "{#",
     "body": [
-      "{#",
+      "{# $1",
       " # $0",
       " #"
     ],
@@ -30,7 +31,7 @@
   },
   "Đ the letter": {
     "prefix": "Edh",
-    "body": "Đ",
+    "body": "Đ ",
     "description": "Insert Đ the letter"
   }
 }
