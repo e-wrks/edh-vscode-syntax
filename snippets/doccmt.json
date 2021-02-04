@@ -14,10 +14,10 @@
       "{## ${1:Title}",
       " # ${2:- Summary}",
       " #",
-      " # ${3:Details}",
+      " # ${4:Details}",
       " #} {;",
       "  {## ${1:Title} #}",
-      "  export ${4:bookmark'identifier} = bookmark",
+      "  export ${3:bookmark'identifier} = bookmark",
       "",
       "  $0",
       ""
