@@ -6,7 +6,7 @@
       " # ${2:- summary}",
       " # ${3:details}",
       " #} {",
-      "${0:; # nested code block(s)}",
+      "  ${0:; # nested code block(s)}",
       ""
     ],
     "description": "a doc block"
@@ -29,9 +29,17 @@
     ],
     "description": "a block comment"
   },
+  "Bookmark": {
+    "prefix": "bookmark",
+    "body": [
+      "{## ${1:Bookmark Label} #}",
+      "export ${0:bookmark'identifier} = bookmark"
+    ],
+    "description": "a bookmark"
+  },
   "Đ the letter": {
     "prefix": "Edh",
-    "body": "Đ ",
-    "description": "Insert Đ the letter"
+    "body": "Đ",
+    "description": "Đ the letter"
   }
 }
