@@ -1,24 +1,28 @@
 {
-  "Doc Block": {
-    "prefix": "{",
-    "body": [
-      "{## ${1:title}",
-      " # ${2:- summary}",
-      " # ${3:details}",
-      " #} {",
-      "  ${0:; # nested code block(s)}",
-      ""
-    ],
-    "description": "a doc block"
-  },
   "Doc Comment": {
     "prefix": "{",
     "body": [
-      "{## ${1:summary}",
-      " # ${0:details}",
+      "{## ${1:Summary}",
+      " # ${0:Details}",
       " #"
     ],
     "description": "a doc comment"
+  },
+  "Doc Block": {
+    "prefix": "{;",
+    "body": [
+      "{## ${1:Title}",
+      " # ${2:- Summary}",
+      " #",
+      " # ${3:Details}",
+      " #} {;",
+      "  {## ${1:Title} #}",
+      "  export ${4:bookmark'identifier} = bookmark",
+      "",
+      "  $0",
+      ""
+    ],
+    "description": "a doc block"
   },
   "Block Comment": {
     "prefix": "{#",
