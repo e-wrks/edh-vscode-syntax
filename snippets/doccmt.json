@@ -3,7 +3,7 @@
     "prefix": "{",
     "body": [
       "{## ${1:Summary}",
-      " # ${0:Details}",
+      "${0:Details}",
       " #"
     ],
     "description": "a doc comment"
@@ -13,8 +13,9 @@
     "body": [
       "{## ${1:Title}",
       " # ${2:- Summary}",
-      " #",
-      " # ${4:Details}",
+      "",
+      "${4:Details}",
+      "",
       " #} {;",
       "  {## ${1:Title} #}",
       "  export ${3:bookmark'identifier} = bookmark",
@@ -28,7 +29,7 @@
     "prefix": "{#",
     "body": [
       "{# $1",
-      " # $0",
+      "$0",
       " #"
     ],
     "description": "a block comment"
