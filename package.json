@@ -5,8 +5,8 @@
         "url": "https://github.com/e-wrks/edh-vscode-syntax"
     },
     "name": "edh-vscode-syntax",
-    "displayName": "Đ Syntax",
-    "description": "Syntax Highlighting for Đ (Edh)",
+    "displayName": "Đ Syntax & Snippets",
+    "description": "Syntax Highlighting (w/ theme bundled) & Basic Snippets for Đ (Edh)",
     "version": "2.7.4",
     "engines": {
         "vscode": "^1.0.0"
