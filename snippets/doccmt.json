@@ -45,6 +45,28 @@
     ],
     "description": "a block comment"
   },
+  "Code Cell": {
+    "prefix": "#%",
+    "body": [
+      "# %% # ${1:Run this cell to }",
+      "$0",
+      "# %# # ${2:See? The code above }"
+    ],
+    "description": "a code cell"
+  },
+  "Code Block": {
+    "prefix": "#{",
+    "body": [
+      "# %{ # ${1:Run this block to }",
+      "$0",
+      "# %% # ${2:Run this cell to }",
+      "",
+      "# %% # ${3:Run this cell to }",
+      "",
+      "# %} # End * $1"
+    ],
+    "description": "a code cell"
+  },
   "Bookmark": {
     "prefix": "bookmark",
     "body": [
