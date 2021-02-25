@@ -12,7 +12,18 @@
     "prefix": "{;",
     "body": [
       "{## ${1:Title}",
-      " # ${2:- Summary}",
+      " # - ${2:Summary}",
+      " #} {;",
+      "  $0",
+      ""
+    ],
+    "description": "a doc block"
+  },
+  "Doc Block w/ Bookmark": {
+    "prefix": "{;b",
+    "body": [
+      "{## ${1:Title}",
+      " # - ${2:Summary}",
       "",
       "${4:Details}",
       "",
@@ -23,7 +34,7 @@
       "  $0",
       ""
     ],
-    "description": "a doc block"
+    "description": "a doc block with bookmark"
   },
   "Block Comment": {
     "prefix": "{#",
