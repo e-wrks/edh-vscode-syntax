@@ -29,7 +29,7 @@
       "",
       " #} {;",
       "  {## ${1:Title} #}",
-      "  export ${3:bookmark'identifier} = bookmark",
+      "  export ${3:bookmark'identifier} = bookmark()",
       "",
       "  $0",
       ""
@@ -49,7 +49,7 @@
     "prefix": "bookmark",
     "body": [
       "{## ${1:Bookmark Label} #}",
-      "export ${0:bookmark'identifier} = bookmark"
+      "export ${0:bookmark'identifier} = bookmark()"
     ],
     "description": "a bookmark"
   },
