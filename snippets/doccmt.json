@@ -75,6 +75,18 @@
     ],
     "description": "a bookmark"
   },
+  "Yield for Result": {
+    "prefix": "yield",
+    "body": [
+      "case yield ${1:iter'item} of {",
+      "  { break } -> return nil # do breaking",
+      "  { return rtn } -> return rtn # do returning",
+      "  { ${2:done} } -> ${3:pass}",
+      "}",
+      "$0"
+    ],
+    "description": "Yield a value from current generator (to call the do-block of the iterating for-loop), handle the result back from that do-block"
+  },
   "Đ the letter": {
     "prefix": "Edh",
     "body": "Đ",
