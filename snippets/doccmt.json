@@ -81,7 +81,7 @@
       "case yield ${1:iter'item} of {",
       "  { break } -> { return nil } # do breaking",
       "  { return rtn } -> { return rtn } # do returning",
-      "  { ${2:done} } -> ${3:pass}",
+      "  { ${2:done} } -> { ${3:pass} }",
       "}",
       "$0"
     ],
