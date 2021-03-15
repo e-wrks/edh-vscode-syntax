@@ -7,7 +7,7 @@
     "name": "edh-vscode-syntax",
     "displayName": "Đ Syntax & Snippets",
     "description": "Syntax Highlighting (w/ theme bundled) & Basic Snippets for Đ (Edh)",
-    "version": "2.8.2",
+    "version": "2.9.0",
     "engines": {
         "vscode": "^1.0.0"
     },
