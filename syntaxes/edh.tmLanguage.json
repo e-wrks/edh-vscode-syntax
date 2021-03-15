@@ -404,19 +404,27 @@
 		"punctuations": {
 			"patterns": [
 				{
-					"name": "punctuation.separator.variable.dot.edh",
-					"match": "\b\\.\b"
+					"name": "expr.keyword.operator.index.edh",
+					"match": "[\\[\\]]+"
+				},
+				{
+					"name": "expr.keyword.operator.alphanumeric.edh",
+					"match": "\\~[\\=\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\*\\+\\-\\/]*[_'[:alnum:]]+[\\=\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\*\\+\\-\\/_'[:alnum:]]*[\\~]?"
 				},
 				{
 					"name": "expr.keyword.operator.edh",
-					"match": "[\\=\\~\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\+\\-\\*/\\[\\]]+"
+					"match": "[\\~\\=\\!\\@\\#\\$\\%\\^\\&\\|\\:\\<\\>\\?\\*\\+\\-\\/]+"
 				},
 				{
-					"name": "punctuation.separator.comma.edh",
+					"name": "punctuation.separator.field.dot.edh",
+					"match": "\\."
+				},
+				{
+					"name": "punctuation.separator.element.edh",
 					"match": ","
 				},
 				{
-					"name": "punctuation.terminator.statement.edh",
+					"name": "punctuation.separator.statement.edh",
 					"match": ";"
 				}
 			]

@@ -97,6 +97,20 @@
 			}
 		},
 		{
+			"name": "Index Operator in Expression",
+			"scope": "expr.keyword.operator.index.edh",
+			"settings": {
+				"foreground": "#7eca3f"
+			}
+		},
+		{
+			"name": "Alphanumeric Operator in Expression",
+			"scope": "expr.keyword.operator.alphanumeric.edh",
+			"settings": {
+				"foreground": "#7eca3f"
+			}
+		},
+		{
 			"name": "Operator in Expression",
 			"scope": "expr.keyword.operator.edh",
 			"settings": {
