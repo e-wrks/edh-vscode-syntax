@@ -3,7 +3,7 @@
     "prefix": "{",
     "body": [
       "{",
-      "  ${0:Statements}",
+      "  ${0}",
       ""
     ],
     "description": "a usual code block"
@@ -12,7 +12,7 @@
     "prefix": "{@",
     "body": [
       "{@",
-      "  ${0:Statements}",
+      "  ${0}",
       "@"
     ],
     "description": "a scoped code block"
