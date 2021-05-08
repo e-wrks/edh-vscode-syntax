@@ -1,6 +1,24 @@
 {
-  "Doc Comment": {
+  "Usual Block": {
     "prefix": "{",
+    "body": [
+      "{",
+      "  ${0:Statements}",
+      ""
+    ],
+    "description": "a usual code block"
+  },
+  "Scoped Block": {
+    "prefix": "{@",
+    "body": [
+      "{@",
+      "  ${0:Statements}",
+      "@"
+    ],
+    "description": "a scoped code block"
+  },
+  "Doc Comment": {
+    "prefix": "{##",
     "body": [
       "{## ${1:Summary}",
       "${0:Details}",
