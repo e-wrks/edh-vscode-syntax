@@ -62,7 +62,7 @@
 				},
 				{
 					"name": "storage.modifier.edh",
-					"match": "(?<![_'[:alnum:]])(import|into|export|effect|let)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(import|into|export|effect|let|const|new)(?![_'[:alnum:]])"
 				}
 			]
 		},
@@ -386,14 +386,6 @@
 				{
 					"name": "expr.keyword.control.edh",
 					"match": "(?<![_'[:alnum:]])as(?![_'[:alnum:]])"
-				},
-				{
-					"name": "expr.keyword.control.edh",
-					"match": "(?<![_'[:alnum:]])new(?![_'[:alnum:]])"
-				},
-				{
-					"name": "expr.keyword.control.edh",
-					"match": "(?<![_'[:alnum:]])const(?![_'[:alnum:]])"
 				}
 			]
 		},
