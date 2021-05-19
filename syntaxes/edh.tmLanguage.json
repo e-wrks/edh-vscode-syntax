@@ -390,6 +390,10 @@
 				{
 					"name": "expr.keyword.control.edh",
 					"match": "(?<![_'[:alnum:]])new(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.control.edh",
+					"match": "(?<![_'[:alnum:]])const(?![_'[:alnum:]])"
 				}
 			]
 		},
