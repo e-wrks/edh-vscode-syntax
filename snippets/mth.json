@@ -2,7 +2,7 @@
   "void method definition": {
     "prefix": "void method",
     "body": [
-      "method ${1:method'Name}( ${2:mth'Arg1} ) void {",
+      "method ${1:method'Name}( ${2:mth'Arg1}, ) void {",
       "  $3",
       "}",
       ""
@@ -12,7 +12,7 @@
   "method definition": {
     "prefix": "method",
     "body": [
-      "method ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "method ${1:method'Name}( ${2:mth'Arg1}, ) {",
       "  $3",
       "}",
       ""
@@ -22,7 +22,7 @@
   "generator definition": {
     "prefix": "generator",
     "body": [
-      "generator ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "generator ${1:method'Name}( ${2:mth'Arg1}, ) {",
       "  $3",
       "}",
       ""
@@ -32,7 +32,7 @@
   "interpreter definition": {
     "prefix": "interpreter",
     "body": [
-      "interpreter ${1:method'Name}( ${2:mth'Arg1} ) {",
+      "interpreter ${1:method'Name}( ${4:callerScope}, ${2:mth'Arg1}, ) {",
       "  $3",
       "}",
       ""
