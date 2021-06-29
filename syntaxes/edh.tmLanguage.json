@@ -370,7 +370,7 @@
 				},
 				{
 					"name": "expr.keyword.control.edh",
-					"match": "(?<![_'[:alnum:]])(perform|behave)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(perform|behave|fallback)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.control.edh",
