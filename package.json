@@ -23,7 +23,8 @@
                     "edh"
                 ],
                 "extensions": [
-                    ".edh"
+                    ".edh",
+                    ".iedh"
                 ],
                 "configuration": "./language-configuration.json"
             }
