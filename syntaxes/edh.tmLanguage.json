@@ -58,7 +58,7 @@
 				},
 				{
 					"name": "storage.type.edh",
-					"match": "(?<![_'[:alnum:]])(extends|namespace|module|class|data|method|generator|interpreter|producer|operator|symbol|infix|infixl|infixr)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(extends|namespace|class|data|method|generator|interpreter|producer|operator|symbol|infix|infixl|infixr)(?![_'[:alnum:]])"
 				},
 				{
 					"name": "storage.modifier.edh",
@@ -78,7 +78,7 @@
 				},
 				{
 					"name": "support.function.edh",
-					"match": "(?<![_'[:alnum:]])(null|compare|type|constructor|supers|property|setter|dict|error|assert|print|abs|max|min|id|blob|str|json|repr|show|desc|cap|grow|len|mark|zip|unzip|scope|sandbox|parseEdh|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(null|compare|type|constructor|supers|property|setter|dict|error|assert|print|abs|max|min|id|blob|str|json|repr|show|desc|cap|grow|len|mark|zip|unzip|scope|sandbox|module|parseEdh|makeOp|makeExpr|partial)(?![_'[:alnum:]])"
 				}
 			]
 		},
