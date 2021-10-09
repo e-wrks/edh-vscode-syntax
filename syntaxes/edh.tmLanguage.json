@@ -325,6 +325,10 @@
 					"match": "(?<![_'[:alnum:]])expr(?![_'[:alnum:]])"
 				},
 				{
+					"name": "keyword.other.iexpr.edh",
+					"match": "(?<![_'[:alnum:]])iexpr(?![_'[:alnum:]])"
+				},
+				{
 					"name": "keyword.other.sink.edh",
 					"match": "(?<![_'[:alnum:]])sink(?![_'[:alnum:]])"
 				},
