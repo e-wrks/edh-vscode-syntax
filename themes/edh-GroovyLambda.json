@@ -83,6 +83,13 @@
 			}
 		},
 		{
+			"name": "IncExpr Keyword",
+			"scope": "keyword.other.iexpr.edh",
+			"settings": {
+				"foreground": "#d3d475"
+			}
+		},
+		{
 			"name": "Sink Keyword",
 			"scope": "keyword.other.sink.edh",
 			"settings": {
