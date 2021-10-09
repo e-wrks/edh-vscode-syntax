@@ -1,4 +1,4 @@
-# Basic Syntax Support for Đ (Edh)
+# Basic Syntax/Snippet Support for Đ (Edh)
 
 This VSCode extension provides minimum syntax highlighting and basic snippets
 for [Đ (Edh)](https://github.com/e-wrks/edh)
