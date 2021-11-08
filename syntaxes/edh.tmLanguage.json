@@ -350,11 +350,23 @@
 				},
 				{
 					"name": "expr.keyword.operator.edh",
-					"match": "(?<![_'[:alnum:]])mod(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])quot(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.operator.edh",
 					"match": "(?<![_'[:alnum:]])rem(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])mod(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])quotRem(?![_'[:alnum:]])"
+				},
+				{
+					"name": "expr.keyword.operator.edh",
+					"match": "(?<![_'[:alnum:]])divMod(?![_'[:alnum:]])"
 				},
 				{
 					"name": "expr.keyword.operator.edh",
