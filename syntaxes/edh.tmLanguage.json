@@ -78,7 +78,7 @@
 				},
 				{
 					"name": "support.function.edh",
-					"match": "(?<![_'[:alnum:]])(null|compare|type|constructor|supers|property|setter|dict|error|assert|print|abs|max|min|id|blob|str|json|repr|show|desc|cap|grow|len|mark|zip|unzip|scope|sandbox|module|parseEdh|makeOp|partial)(?![_'[:alnum:]])"
+					"match": "(?<![_'[:alnum:]])(null|compare|type|constructor|supers|property|setter|dict|error|assert|blob|str|json|repr|show|desc|cap|grow|len|mark|zip|unzip|scope|sandbox|module|parseEdh|makeOp|partial)(?![_'[:alnum:]])"
 				}
 			]
 		},
