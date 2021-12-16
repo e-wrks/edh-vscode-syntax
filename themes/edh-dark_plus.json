@@ -90,8 +90,8 @@
 			}
 		},
 		{
-			"name": "Sink Keyword",
-			"scope": "keyword.other.sink.edh",
+			"name": "Channel Keyword",
+			"scope": "keyword.other.chan.edh",
 			"settings": {
 				"foreground": "#d3d630"
 			}
